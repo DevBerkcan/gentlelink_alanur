@@ -27,19 +27,19 @@ export const metadata: Metadata = {
   ],
   icons: {
     icon: [
-      { url: "/berkcan.png", sizes: "32x32", type: "image/png" },
-      { url: "/berkcan.png", sizes: "16x16", type: "image/png" },
-      { url: "/berkcan.png", sizes: "192x192", type: "image/png" },
-      { url: "/berkcan.png", sizes: "512x512", type: "image/png" },
+      { url: "/alanur_bild.jpg", sizes: "32x32", type: "image/jpeg" },
+      { url: "/alanur_bild.jpg", sizes: "16x16", type: "image/jpeg" },
+      { url: "/alanur_bild.jpg", sizes: "192x192", type: "image/jpeg" },
+      { url: "/alanur_bild.jpg", sizes: "512x512", type: "image/jpeg" },
     ],
-    shortcut: "/berkcan.png",
+    shortcut: "/alanur_bild.jpg",
     apple: [
-      { url: "/berkcan.png", sizes: "180x180", type: "image/png" },
-      { url: "/berkcan.png", sizes: "152x152", type: "image/png" },
-      { url: "/berkcan.png", sizes: "120x120", type: "image/png" },
+      { url: "/alanur_bild.jpg", sizes: "180x180", type: "image/jpeg" },
+      { url: "/alanur_bild.jpg", sizes: "152x152", type: "image/jpeg" },
+      { url: "/alanur_bild.jpg", sizes: "120x120", type: "image/jpeg" },
     ],
     other: [
-      { rel: "mask-icon", url: "/berkcan.png", color: "#f43f5e" },
+      { rel: "mask-icon", url: "/alanur_bild.jpg", color: "#f43f5e" },
     ],
   },
   manifest: "/manifest.json",
@@ -55,14 +55,14 @@ export const metadata: Metadata = {
     type: "website",
     locale: "de_DE",
     siteName: "Alanur Atesoglu",
-    images: ["/berkcan.png"],
+    images: ["/alanur_bild.jpg"],
   },
   twitter: {
     card: "summary_large_image",
     title: "Alanur Atesoglu | Soziologie & Marketing",
     description:
       "Soziologie-Studentin mit Fokus auf Marketing und Kommunikation.",
-    images: ["/berkcan.png"],
+    images: ["/alanur_bild.jpg"],
   },
   viewport: {
     width: "device-width",

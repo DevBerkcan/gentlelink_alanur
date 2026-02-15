@@ -19,7 +19,7 @@ export const profileConfig = {
   title: "Soziologie Studentin & Marketing Enthusiastin",
   description:
     "Fokus auf Gesellschaft, Kommunikation und digitale Markenauftritte.",
-  image: "/profile.jpg",
+  image: "/alanur_bild.jpg",
 };
 
 export const socialLinks: LinkConfig[] = [
