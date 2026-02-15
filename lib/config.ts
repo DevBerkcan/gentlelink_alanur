@@ -15,7 +15,7 @@ export interface LinkConfig {
 }
 
 export const profileConfig = {
-  name: "Alanur Atesoglu",
+  name: "Alanur Millihuzin",
   title: "Soziologie Studentin & Marketing Enthusiastin",
   description:
     "Fokus auf Gesellschaft, Kommunikation und digitale Markenauftritte.",
@@ -31,13 +31,13 @@ export const socialLinks: LinkConfig[] = [
   },
   {
     label: "Portfolio",
-    href: "https://www.berkcanatesoglu.de",
+    href: "https://www.berkcanMillihuzin.de",
     icon: Globe,
     variant: "primary",
   },
   {
     label: "LinkedIn",
-    href: "https://www.linkedin.com/in/Alanur-atesoglu/",
+    href: "https://www.linkedin.com/in/Alanur-Millihuzin/",
     icon: Linkedin,
     variant: "primary",
   },
@@ -56,7 +56,7 @@ export const socialLinks: LinkConfig[] = [
 ];
 
 export const siteConfig = {
-  name: "Alanur Atesoglu - Soziologie & Marketing",
+  name: "Alanur Millihuzin - Soziologie & Marketing",
   description: "Soziologie Studentin mit Fokus auf Marketing und Kommunikation",
   url: "https://berkcandaily.vercel.app",
 };

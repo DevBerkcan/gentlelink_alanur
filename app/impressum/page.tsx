@@ -68,7 +68,7 @@ export default function ImpressumPage() {
               <h2 className="text-2xl font-bold text-barber-black mb-4">
                 Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV
               </h2>
-              <p>Inhaber: Alanur Atesoglu</p>
+              <p>Inhaber: Alanur Millihuzin</p>
               <p>Berliner Allee 43</p>
               <p>40212 Düsseldorf</p>
             </section>

@@ -12,11 +12,11 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Alanur Atesoglu | Soziologie & Marketing",
+  title: "Alanur Millihuzin | Soziologie & Marketing",
   description:
     "Soziologie-Studentin mit Interesse an Marketing, Social Media und digitaler Kommunikation.",
   keywords: [
-    "Alanur Atesoglu",
+    "Alanur Millihuzin",
     "Soziologie",
     "Marketing",
     "Digitale Kommunikation",
@@ -49,17 +49,17 @@ export const metadata: Metadata = {
     title: "Alanur",
   },
   openGraph: {
-    title: "Alanur Atesoglu | Soziologie & Marketing",
+    title: "Alanur Millihuzin | Soziologie & Marketing",
     description:
       "Soziologie-Studentin mit Fokus auf Marketing, Social Media und digitale Kommunikation.",
     type: "website",
     locale: "de_DE",
-    siteName: "Alanur Atesoglu",
+    siteName: "Alanur Millihuzin",
     images: ["/alanur_bild.jpg"],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Alanur Atesoglu | Soziologie & Marketing",
+    title: "Alanur Millihuzin | Soziologie & Marketing",
     description:
       "Soziologie-Studentin mit Fokus auf Marketing und Kommunikation.",
     images: ["/alanur_bild.jpg"],

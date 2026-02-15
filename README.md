@@ -1,6 +1,6 @@
-# Alanur Atesoglu - Linktree
+# Alanur Millihuzin - Linktree
 
-Personal link page for Alanur Atesoglu - Software Developer & Entrepreneur from Duesseldorf.
+Personal link page for Alanur Millihuzin - Software Developer & Entrepreneur from Duesseldorf.
 
 ![Next.js](https://img.shields.io/badge/Next.js-14-black)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5-blue)
@@ -38,12 +38,12 @@ npm run dev
 
 ## Links
 
-- Portfolio: https://www.berkcanatesoglu.de
+- Portfolio: https://www.berkcanMillihuzin.de
 - GitHub: https://github.com/DevBerkcan
 - GentleGroup: https://www.gentlegroup.de
-- LinkedIn: https://www.linkedin.com/in/Alanur-atesoglu/
+- LinkedIn: https://www.linkedin.com/in/Alanur-Millihuzin/
 - Instagram: https://www.instagram.com/berkcandaily/
 
 ## Contact
 
-kontakt@berkcanatesoglu.de
+kontakt@berkcanMillihuzin.de

@@ -13,7 +13,7 @@ export const Footer = () => {
     },
     {
       name: "LinkedIn",
-      href: "https://www.linkedin.com/in/Alanur-atesoglu/",
+      href: "https://www.linkedin.com/in/Alanur-Millihuzin/",
       icon: Linkedin,
     },
     {
@@ -72,7 +72,7 @@ export const Footer = () => {
 
       {/* Copyright */}
       <p className="text-xs text-gray-400 dark:text-gray-500">
-        © {new Date().getFullYear()} Alanur Atesoglu. Alle Rechte vorbehalten.
+        © {new Date().getFullYear()} Alanur Millihuzin. Alle Rechte vorbehalten.
       </p>
     </motion.footer>
   );

@@ -82,14 +82,18 @@ export const ProfileCard = ({ onContactClick }: ProfileCardProps) => {
         initial={{ scale: 0 }}
         animate={{ scale: 1 }}
         transition={{ delay: 0.2, type: "spring", stiffness: 200 }}
-        className="mx-auto mb-6 flex h-24 w-24 items-center justify-center overflow-hidden rounded-full shadow-lg ring-4 ring-white dark:ring-gray-700"
+        className="relative mx-auto mb-6 flex h-24 w-24 translate-x-2 -translate-y-1 items-center justify-center overflow-hidden rounded-full shadow-xl ring-4 ring-rose-100 dark:ring-rose-900/60"
       >
+        <span
+          className="pointer-events-none absolute -inset-2 -z-10 rounded-full bg-gradient-to-br from-rose-200/70 via-pink-200/50 to-fuchsia-200/60 blur-md"
+          aria-hidden="true"
+        />
         <Image
           src="/alanur_bild.jpg"
           alt="Alanur Atesoglu"
           width={96}
           height={96}
-          className="h-full w-full object-cover"
+          className="h-full w-full object-cover object-center"
           priority
         />
       </motion.div>
