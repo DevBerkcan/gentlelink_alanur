@@ -57,8 +57,8 @@ export const LinkButton = ({
         hover:shadow-xl focus-visible:shadow-xl
         ${
           isPrimary
-            ? "bg-gradient-to-r from-violet-500 to-purple-600 text-white hover:from-violet-600 hover:to-purple-700"
-            : "border-2 border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800 text-gray-900 dark:text-white hover:border-violet-500 dark:hover:border-violet-500"
+            ? "bg-gradient-to-r from-rose-500 to-pink-500 text-white hover:from-rose-600 hover:to-pink-600"
+            : "border-2 border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800 text-gray-900 dark:text-white hover:border-rose-500 dark:hover:border-rose-500"
         }
       `}
       aria-label={`${label} öffnen`}
@@ -66,7 +66,7 @@ export const LinkButton = ({
       {/* Background gradient effect on hover */}
       <motion.div
         className={`absolute inset-0 opacity-0 transition-opacity duration-300 group-hover:opacity-10 ${
-          isPrimary ? "bg-white" : "bg-violet-500"
+          isPrimary ? "bg-white" : "bg-rose-500"
         }`}
         initial={false}
       />
@@ -79,7 +79,7 @@ export const LinkButton = ({
       >
         <Icon
           size={24}
-          className={isPrimary ? "text-white" : "text-violet-500"}
+          className={isPrimary ? "text-white" : "text-rose-500"}
         />
       </motion.div>
 

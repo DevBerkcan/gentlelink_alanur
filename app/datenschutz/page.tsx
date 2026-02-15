@@ -276,8 +276,8 @@ export default function DatenschutzPage() {
               </p>
               <p className="mb-2">
                 <strong>E-Mail:</strong>{" "}
-                <a href="mailto:kontakt@berkcanatesoglu.de" className="text-barber-red hover:underline">
-                  kontakt@berkcanatesoglu.de
+                <a href="mailto:alanur@gentlegroup.de" className="text-barber-red hover:underline">
+                  alanur@gentlegroup.de
                 </a>
               </p>
               <p>

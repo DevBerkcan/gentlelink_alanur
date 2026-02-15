@@ -12,19 +12,18 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Alanur Millihuzin | Soziologie student & Marketing Enthusiast",
+  title: "Alanur Atesoglu | Soziologie & Marketing",
   description:
-    "Soziologie student & Marketing Enthusiast aus Wuppertal. Leidenschaft für digitale Trends, Social Media und innovative Marketingstrategien.",
+    "Soziologie-Studentin mit Interesse an Marketing, Social Media und digitaler Kommunikation.",
   keywords: [
-    "Alanur Millihuzin",
-    "Entrepreneur",
-    "Wuppertal",
-    "Freelancer",
-    "Soziologie student",
-    "Marketing Enthusiast",
+    "Alanur Atesoglu",
+    "Soziologie",
+    "Marketing",
+    "Digitale Kommunikation",
+    "LinkedIn",
     "Digitale Trends",
     "Social Media",
-    "Innovative Marketingstrategien",
+    "Branding",
   ],
   icons: {
     icon: [
@@ -40,7 +39,7 @@ export const metadata: Metadata = {
       { url: "/berkcan.png", sizes: "120x120", type: "image/png" },
     ],
     other: [
-      { rel: "mask-icon", url: "/berkcan.png", color: "#8b5cf6" },
+      { rel: "mask-icon", url: "/berkcan.png", color: "#f43f5e" },
     ],
   },
   manifest: "/manifest.json",
@@ -50,9 +49,9 @@ export const metadata: Metadata = {
     title: "Alanur",
   },
   openGraph: {
-    title: "Alanur Atesoglu | Software Developer & Entrepreneur",
+    title: "Alanur Atesoglu | Soziologie & Marketing",
     description:
-      "Software Developer & Entrepreneur aus Düsseldorf. React, Next.js & TypeScript.",
+      "Soziologie-Studentin mit Fokus auf Marketing, Social Media und digitale Kommunikation.",
     type: "website",
     locale: "de_DE",
     siteName: "Alanur Atesoglu",
@@ -60,9 +59,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Alanur Atesoglu | Software Developer & Entrepreneur",
+    title: "Alanur Atesoglu | Soziologie & Marketing",
     description:
-      "Software Developer & Entrepreneur aus Düsseldorf.",
+      "Soziologie-Studentin mit Fokus auf Marketing und Kommunikation.",
     images: ["/berkcan.png"],
   },
   viewport: {

@@ -20,11 +20,11 @@ export const ContactModal = ({ isOpen, onClose }: ContactModalProps) => {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     // Öffne E-Mail Client mit vorausgefüllten Daten
-    const subject = encodeURIComponent("Anfrage: Individuelles Linktree");
+    const subject = encodeURIComponent("Kontaktanfrage über Linkseite");
     const body = encodeURIComponent(
       `Name: ${formData.name}\nE-Mail: ${formData.email}\n\nNachricht:\n${formData.message}`
     );
-    window.location.href = `mailto:kontakt@berkcanatesoglu.de?subject=${subject}&body=${body}`;
+    window.location.href = `mailto:alanur@gentlegroup.de?subject=${subject}&body=${body}`;
     setSubmitted(true);
   };
 
@@ -52,9 +52,9 @@ export const ContactModal = ({ isOpen, onClose }: ContactModalProps) => {
               {/* Header */}
               <div className="flex items-center justify-between mb-4">
                 <div className="flex items-center gap-2">
-                  <Sparkles size={20} className="text-violet-500" />
+                  <Sparkles size={20} className="text-rose-500" />
                   <h2 className="text-lg font-bold text-gray-900 dark:text-white">
-                    Dein eigenes Linktree
+                    Nachricht an Alanur
                   </h2>
                 </div>
                 <button
@@ -79,7 +79,7 @@ export const ContactModal = ({ isOpen, onClose }: ContactModalProps) => {
                   </p>
                   <button
                     onClick={onClose}
-                    className="mt-4 text-sm text-violet-500 hover:underline"
+                    className="mt-4 text-sm text-rose-500 hover:underline"
                   >
                     Schließen
                   </button>
@@ -97,7 +97,7 @@ export const ContactModal = ({ isOpen, onClose }: ContactModalProps) => {
                       onChange={(e) =>
                         setFormData({ ...formData, name: e.target.value })
                       }
-                      className="w-full rounded-lg border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-800 px-4 py-2 text-gray-900 dark:text-white focus:border-violet-500 focus:outline-none focus:ring-2 focus:ring-violet-500/20"
+                      className="w-full rounded-lg border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-800 px-4 py-2 text-gray-900 dark:text-white focus:border-rose-500 focus:outline-none focus:ring-2 focus:ring-rose-500/20"
                       placeholder="Dein Name"
                     />
                   </div>
@@ -113,7 +113,7 @@ export const ContactModal = ({ isOpen, onClose }: ContactModalProps) => {
                       onChange={(e) =>
                         setFormData({ ...formData, email: e.target.value })
                       }
-                      className="w-full rounded-lg border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-800 px-4 py-2 text-gray-900 dark:text-white focus:border-violet-500 focus:outline-none focus:ring-2 focus:ring-violet-500/20"
+                      className="w-full rounded-lg border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-800 px-4 py-2 text-gray-900 dark:text-white focus:border-rose-500 focus:outline-none focus:ring-2 focus:ring-rose-500/20"
                       placeholder="deine@email.de"
                     />
                   </div>
@@ -129,14 +129,14 @@ export const ContactModal = ({ isOpen, onClose }: ContactModalProps) => {
                       onChange={(e) =>
                         setFormData({ ...formData, message: e.target.value })
                       }
-                      className="w-full rounded-lg border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-800 px-4 py-2 text-gray-900 dark:text-white focus:border-violet-500 focus:outline-none focus:ring-2 focus:ring-violet-500/20 resize-none"
-                      placeholder="Erzähl mir von deinem Projekt..."
+                      className="w-full rounded-lg border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-800 px-4 py-2 text-gray-900 dark:text-white focus:border-rose-500 focus:outline-none focus:ring-2 focus:ring-rose-500/20 resize-none"
+                      placeholder="Worum geht es in deiner Nachricht?"
                     />
                   </div>
 
                   <button
                     type="submit"
-                    className="w-full rounded-lg bg-gradient-to-r from-violet-500 to-purple-500 px-4 py-3 font-medium text-white shadow-lg shadow-violet-500/25 hover:shadow-violet-500/40 transition-shadow"
+                    className="w-full rounded-lg bg-gradient-to-r from-rose-500 to-pink-500 px-4 py-3 font-medium text-white shadow-lg shadow-rose-500/25 hover:shadow-rose-500/40 transition-shadow"
                   >
                     Anfrage senden
                   </button>

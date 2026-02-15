@@ -1,10 +1,8 @@
 import {
   Instagram,
   Mail,
-  Github,
   Globe,
   Building2,
-  ShoppingBag,
   Linkedin,
   type LucideIcon,
 } from "lucide-react";
@@ -18,8 +16,9 @@ export interface LinkConfig {
 
 export const profileConfig = {
   name: "Alanur Atesoglu",
-  title: "Software Developer & Entrepreneur",
-  description: "Building digital solutions & innovative software since 2020",
+  title: "Soziologie Studentin & Marketing Enthusiastin",
+  description:
+    "Fokus auf Gesellschaft, Kommunikation und digitale Markenauftritte.",
   image: "/profile.jpg",
 };
 
@@ -37,22 +36,10 @@ export const socialLinks: LinkConfig[] = [
     variant: "primary",
   },
   {
-    label: "GitHub",
-    href: "https://github.com/DevBerkcan",
-    icon: Github,
-    variant: "primary",
-  },
-  {
-    label: "Meine Gadgets",
-    href: "/gadgets",
-    icon: ShoppingBag,
-    variant: "secondary",
-  },
-  {
     label: "LinkedIn",
     href: "https://www.linkedin.com/in/Alanur-atesoglu/",
     icon: Linkedin,
-    variant: "secondary",
+    variant: "primary",
   },
   {
     label: "Instagram",
@@ -62,14 +49,14 @@ export const socialLinks: LinkConfig[] = [
   },
   {
     label: "E-Mail",
-    href: "mailto:kontakt@berkcanatesoglu.de",
+    href: "mailto:alanur@gentlegroup.de",
     icon: Mail,
     variant: "secondary",
   },
 ];
 
 export const siteConfig = {
-  name: "Alanur Atesoglu - Developer & Entrepreneur",
-  description: "Software Developer & Entrepreneur aus Düsseldorf",
+  name: "Alanur Atesoglu - Soziologie & Marketing",
+  description: "Soziologie Studentin mit Fokus auf Marketing und Kommunikation",
   url: "https://berkcandaily.vercel.app",
 };

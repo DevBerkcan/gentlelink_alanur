@@ -30,7 +30,7 @@ export const AvailabilityBadge = ({ available = true }: AvailabilityBadgeProps) 
 
       {/* Text */}
       <span className="text-sm font-medium text-gray-700 dark:text-gray-300">
-        {available ? "Open for Work" : "Currently Busy"}
+        {available ? "Offen für Austausch" : "Aktuell ausgelastet"}
       </span>
     </motion.div>
   );
